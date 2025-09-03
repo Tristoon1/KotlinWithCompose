@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
                     containerColor = MaterialTheme.colorScheme.background
                 ) { innerPadding ->
                     Box(modifier = Modifier.padding(innerPadding)) {
-                        MyScreen()
+                        MyScreen())
                     }
 //                    Greeting(
 //                        name = "Android",
